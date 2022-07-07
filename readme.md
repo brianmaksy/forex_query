@@ -1,4 +1,6 @@
-This programme specifies 16 currencies and returns all combinations of their exchange rates for today in the form of a csv.
+This programme specifies 16 currencies and returns all combinations of their exchange rates for a given date in the form of a csv named 'currency_data.csv'.
+
+The csv is outputted under a folder named after the query date.
 
 The currencies are:  
 AUD  
