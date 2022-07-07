@@ -31,7 +31,13 @@ pip install tqdm
 in your Python environment if not already installed
 
 
-To run the programme: python3 main.py
+To run the programme:
+
+First add a utils.py file in the root directory specifying your API_KEY for https://exchangeratesapi.io/
+
+Then run
+
+python3 main.py
 
 Sample output for querying four currencies (e.g. currencies = ["AUD", "CAD", "CHF", "DKK"]):
 {your_system_path}>python3 main.py  
